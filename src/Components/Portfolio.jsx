@@ -31,6 +31,12 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
+    title: "Classfit",
+    description:
+      "Led development on Venture Appital's flagship application, identifying and reducing web latency by 40% through API and database optimization, boosting revenue by 20%. Spearheaded a React.js transition, advanced frontend and backend features, and integrated Stripo for custom email creation, reducing email creation time by 30%. Achieved a 98% deployment success rate through Docker and AWS pipelines.",
+    url: "https://app.classfit.com/",
+  },
+  {
     title: "Resume.AI",
     description:
       "Graduation project focusing on resume analysis and interview preparation, boosting resume success by 25% and improving interview skills.",

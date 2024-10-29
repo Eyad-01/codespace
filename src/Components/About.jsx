@@ -80,8 +80,7 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  `I am passionate about leveraging emerging technologies to create impactful, efficient software. My enthusiasm for competitive programming drives my dedication to solving complex problems and delivering high-performance applications. I enjoy working with AI, cloud computing, and big data to tackle real-world challenges. Collaborating with teams, sharing knowledge, and mentoring are key aspects of my work, as I strive to build user-centric, scalable solutions that exceed expectations.`;
+const detailOrQuote = `I am passionate about leveraging emerging technologies to create impactful, efficient software. My enthusiasm for competitive programming drives my dedication to solving complex problems and delivering high-performance applications. I enjoy working with AI, cloud computing, and big data to tackle real-world challenges. Collaborating with teams, sharing knowledge, and mentoring are key aspects of my work, as I strive to build user-centric, scalable solutions that exceed expectations.`;
 
 const About = () => {
   return (
