@@ -19,9 +19,10 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
+        "oderwat.indent-rainbow",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "GitHub.copilot",
+        "gitHub.copilot",
         "ms-vscode.azure-account",
         "ms-azuretools.vscode-azurestaticwebapps"
       ],
@@ -29,7 +30,9 @@
         "emmet.includeLanguages": {
           "javascript": "javascriptreact"
         },
-        "emmet.triggerExpansionOnTab": true
+        "emmet.triggerExpansionOnTab": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
       }
     }
   },
