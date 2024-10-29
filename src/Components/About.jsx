@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -23,20 +23,56 @@ const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+const description = `Accomplished Mid-Senior Software Engineer with expertise in React.js, Node.js, Flask, and Yii. Holding a degree in Computing and Data Science, I
+excel in addressing complex technical challenges and delivering sophisticated software solutions. Passionate about emerging technologies and
+competitive programming, I create innovative and efficient applications. My strong collaborative skills and strategic approach drive continuous
+improvement and excellence in every project.`;
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web Applications",
+  "Timelines",
+  "Big Data",
+  "Cloud Computing",
+  "Apache Kafka",
+  "Software Development",
+  "DevOps",
+  "Unit Testing",
+  "Full-Stack Development",
+  "Microservices",
+  "Golang",
+  "API Development",
+  "Debugging",
+  "Troubleshooting",
+  "Optimize Applications",
+  "Maintenance",
+  "SDLC",
+  "System Administrators",
+  "GitFlow",
+  "Hadoop",
+  "Amazon S3",
+  "Docker Products",
+  "SQL",
+  "MySQL",
+  "NoSQL",
+  "Amazon Web Services",
+  "REST APIs",
+  "Git",
+  "PHP",
+  "Yii",
+  "Laravel",
+  "Python",
+  "Flask",
+  "Java",
+  "JavaScript",
+  "React.js",
+  "Node.js",
+  "R",
+  "HTML",
+  "CSS",
 ];
 
 /**
@@ -45,7 +81,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  `I am passionate about leveraging emerging technologies to create impactful, efficient software. My enthusiasm for competitive programming drives my dedication to solving complex problems and delivering high-performance applications. I enjoy working with AI, cloud computing, and big data to tackle real-world challenges. Collaborating with teams, sharing knowledge, and mentoring are key aspects of my work, as I strive to build user-centric, scalable solutions that exceed expectations.`;
 
 const About = () => {
   return (
